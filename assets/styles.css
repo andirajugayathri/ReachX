@@ -183,7 +183,7 @@ p,
 .text {
   color: var(--text-color);
   font-size: var(--body-font-size);
-  font-family: var(--body-font-family);
+  font-family: '-apple-system', 'BlinkMacSystemFont', 'Segoe UI', 'Roboto', 'Helvetica Neue', Arial, sans-serif;
   font-weight: var(--body-font-weight);
   line-height: var(--body-line-height);
   font-size: 16px;
@@ -202,7 +202,7 @@ h4,
 h5,
 h6 {
   color: var(--headings-color);
-  font-family: var(--heading-font-family);
+  font-family: '-apple-system', 'BlinkMacSystemFont', 'Segoe UI', 'Roboto', 'Helvetica Neue', Arial, sans-serif;
   position: relative;
   line-height: var(--line-height-heading-);
 }
@@ -8246,12 +8246,14 @@ Sticky Header
   margin-bottom: 20px;
 }
 .ks-service-list-box ul li {
-  line-height: 1.87;
   padding-left: 16px;
   position: relative;
+  font-size: 16px;
+  line-height: 1.8;
+  color: #666;
   -webkit-transition: 0.3s;
   transition: 0.3s;
-  font-family: var(--manrope-font);
+  font-weight: 400;
 }
 @media (min-width: 576px) and (max-width: 767.98px) {
   .ks-service-list-box ul li {
@@ -8263,14 +8265,14 @@ Sticky Header
   position: absolute;
   top: 50%;
   left: 0;
-  height: 4px;
-  width: 4px;
+  height: 5px;
+  width: 5px;
   border-radius: 50%;
   -webkit-transition: 0.3s;
   transition: 0.3s;
   -webkit-transform: translateY(-50%);
           transform: translateY(-50%);
-  background-color: var(--text-color);
+  background-color: #666
 }
 .ks-service-more {
   font-weight: 700;
@@ -8433,9 +8435,9 @@ Sticky Header
 .ks-service-style-2 .ks-service-item:hover::after {
   background-color: var(--theme-color1);
 }
-.ks-service-style-2 .ks-service-item:hover .ks-service-title {
+/* .ks-service-style-2 .ks-service-item:hover .ks-service-title {
   color: var(--theme-color-white);
-}
+} */
 [data-tm-layout=dark] .ks-service-style-2 .ks-service-item:hover .ks-service-title {
   color: var(--theme-color-yellow);
 }
@@ -8464,10 +8466,10 @@ Sticky Header
   -webkit-transform: scale(1);
           transform: scale(1);
 }
-.ks-service-style-2 .ks-service-item:hover .ks-service-thumb img {
+/* .ks-service-style-2 .ks-service-item:hover .ks-service-thumb img {
   -webkit-transform: scale(1.1);
           transform: scale(1.1);
-}
+} */
 .ks-service-style-2 .ks-service-icon {
   position: absolute;
   left: 20px;
@@ -8487,8 +8489,9 @@ Sticky Header
 }
 .ks-service-style-2 .ks-service-title {
   font-weight: 600;
-  font-size: 26px;
+  font-size: 28px;
   line-height: 1.15;
+  text-align: center;
   margin-bottom: 15px;
   text-transform: uppercase;
   color: var(--theme-color-dark);
@@ -8509,7 +8512,7 @@ Sticky Header
   }
 }
 .ks-service-style-2.ks-service-area {
-  padding-bottom: 100px;
+  /* padding-bottom: 100px; */
   background-color: #fff;
 }
 
@@ -9033,7 +9036,9 @@ Sticky Header
   -webkit-transition: all 300ms ease;
   transition: all 300ms ease;
 }
-
+.service-block-four .inner-box:hover .image-box .icon-box .icon {
+   color: var(--text-color-theme-color4);
+}
 /***
 
 ====================================================================
@@ -9437,7 +9442,7 @@ Sticky Header
 
 ***/
 .services-section-seven {
-  background-color: #000;
+  background-color: var(--text-color-theme-color4);
   padding: 60px 0 120px;
   position: relative;
 }

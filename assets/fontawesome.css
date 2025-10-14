@@ -751,7 +751,11 @@ readers do not read off random characters that represent icons */
 
 .fa-angle-double-up::before {
   content: "\f102";
+  font-family: "Font Awesome 6 Free"; 
+  font-weight: 900; 
 }
+
+
 
 .fa-ankh::before {
   content: "\f644";
@@ -1015,7 +1019,11 @@ readers do not read off random characters that represent icons */
 
 .fa-arrow-right-long::before {
   content: "\f178";
+  font-family: "Font Awesome 6 Free"; 
+  font-weight: 900; 
 }
+
+
 
 .fa-long-arrow-right::before {
   content: "\f178";
