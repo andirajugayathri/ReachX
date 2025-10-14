@@ -991,6 +991,7 @@ readers do not read off random characters that represent icons */
 
 .fa-arrow-right::before {
   content: "\f061";
+  font-weight: 700;
 }
 
 .fa-arrow-right-arrow-left::before {
