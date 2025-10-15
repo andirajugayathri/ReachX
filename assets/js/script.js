@@ -470,7 +470,7 @@ var THEMEMASCOT = {};
 					pin: section,
 					scrub: 1,
 					start: `top ${topOffset}px`,
-					end: "bottom 97%",
+					end: "bottom 130%",
 					endTrigger: '.services-section-seven',
 					pinSpacing: false,
 					markers: false,
