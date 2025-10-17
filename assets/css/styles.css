@@ -9457,7 +9457,7 @@ Sticky Header
 ***/
 .services-section-seven {
   background-color: var(--text-color-theme-color4);
-  padding: 60px 0 120px;
+  padding: 60px 0 100px;
   position: relative;
 }
 [data-tm-layout=dark] .services-section-seven {
